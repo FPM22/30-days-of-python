@@ -9,7 +9,6 @@ city = input('Please, enter the city wher you live: ')
 age = input('How old are you: ')
 birthdate = input('In what year were you born: ')
 is_married = int(input('Are you married? Please, enter one option: \n1.True,\n2.False\n'))
-marriage = bool
 
 if is_married == 1:
     marriage = True
@@ -19,3 +18,5 @@ else:
     print('There is no reason to be sad, there is plenty of fish in the sea.')
 
 print('\nThank you for beeing here on these day, helping me to improve. I hope you are having a great day!')
+
+print(type(marriage))
