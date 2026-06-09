@@ -62,4 +62,4 @@ print('The result of your operation is: ', total)
 radius = int(input('Please enter the radius of the circle: '))
 area_of_circle = 3.14 * radius ** 2
 circum_of_circle = 2 * 3.14 * radius
-print('The area of the circle is: ', area_of_circle, 'and the circumference of the circle is: ', circum_of_circle)
+print('The area of the circle is: ', area_of_circle, '\nAnd the circumference of the circle is: ', circum_of_circle)
