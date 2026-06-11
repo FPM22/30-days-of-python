@@ -39,4 +39,7 @@ if codingforall.find('Coding') == 0:
     print(codingforall,'starts with \'Coding\'','\n')
 else:
     print(codingforall, 'doesn\'t start with \'Coding\'','\n')
+print(' '.join(['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']),'\n')
+print('I am enjoying this challenge.\nI just wonder what is next.\n')
+print('Name\tAge\tCountry\tCity\tAsabeneh\t250\tFinland\tHelsinki\n')
     
