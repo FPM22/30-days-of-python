@@ -28,5 +28,5 @@ print('Python For Everyone'.replace('Everyone', 'All'))
 print(codingforall.split(' '))
 print('Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'.split(','))
 print(codingforall[0])
-#
+
 # 4)
