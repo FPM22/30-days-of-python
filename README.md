@@ -10,3 +10,4 @@ My progress through the [30 Days of Python](https://github.com/Asabeneh/30-Days-
 | 02  | Variables and built-in functions |
 | 03  | Operators |
 | 04  | Strings |
+| 05  | Lists |
