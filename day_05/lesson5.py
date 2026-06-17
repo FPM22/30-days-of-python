@@ -1,3 +1,4 @@
+'''
 # Exercises - Day 4
 # Title
 print('\n'+'-'*50,' Exercises - Day 5 ' ,'-'*50 +'\n'+'-'*122)
@@ -30,3 +31,66 @@ print(len(companies))
 print(companies[0])
 print(companies[-1])
 print(companies[(len(companies)//2)])
+companies[2] = 'Nvidia'
+print(companies)
+companies.append('Vercel')
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies.insert(len(companies)//2, 'Kingston')
+print(companies)
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+string = ['#; ']
+companies.extend(string)
+print(companies)
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+does_exists = 'Vercel' in companies
+print(does_exists)
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies.sort()
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+print(companies)
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies.reverse()
+print(companies)
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+del companies[0:3]
+print(companies)
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+del companies[-3:]
+print(companies)
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+del companies[-(len(companies)//2):]
+print(companies)
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies.pop(0)
+print(companies)
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies.pop((len(companies)//2))
+print(companies)
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies.pop(-1)
+print(companies)
+companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+del companies[0:]
+print(companies)
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+front_end.extend(back_end)
+full_stack = front_end.copy()
+print(full_stack)'''
+
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+min_age = ages[0]
+max_age = -1
+for i in range(len(ages)):
+    if ages[i] < min_age:
+        min_age = ages[i]
+    else:
+        min_age = min_age
+    if ages[i] > max_age:
+        max_age = ages[i]
+    else:
+        max_age = max_age
+
+print('min age:',min_age)
+print('max_age:',max_age)
