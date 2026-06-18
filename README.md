@@ -11,3 +11,4 @@ My progress through the [30 Days of Python](https://github.com/Asabeneh/30-Days-
 | 03  | Operators |
 | 04  | Strings |
 | 05  | Lists |
+| 06  | Tuples |
