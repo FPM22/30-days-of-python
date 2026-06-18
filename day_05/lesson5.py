@@ -98,13 +98,17 @@ print(ages)
 ageselected = int(input('Age: '))
 
 low = 0
-high = len(ages-1)
+high = len(ages) - 1
 mid = (low + high) // 2
-for i in range(len(ages)):
-    if ages[i] > ageselected:
-        ages.insert(i, ageselected)
-        break
 
+while low <= high:
+    if ages[mid] < ageselected:
+        low = mid + 1
+    elif ages[mid] >= ageselected:
+        high = mid - 1
+    mid = (low + high) // 2
+
+ages.insert(low, ageselected)
 print(ages)
 
         
