@@ -78,40 +78,4 @@ front_end.extend(back_end)
 full_stack = front_end.copy()
 print(full_stack)
 
-ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-min_age = ages[0]
-max_age = -1
 
-for age in ages:
-    if age < min_age:
-        min_age = age
-    if age > max_age:
-        max_age = age
-    
-
-print('min age:',min_age)
-print('max_age:',max_age)
-
-ages.sort()
-print(ages)
-ageselected = int(input('Age: '))
-
-low = 0
-high = len(ages) - 1
-mid = (low + high) // 2
-
-while low <= high:
-    if ages[mid] < ageselected:
-        low = mid + 1
-    elif ages[mid] >= ageselected:
-        high = mid - 1
-    mid = (low + high) // 2
-
-ages.insert(low, ageselected)
-print(ages)
-
-        
-             
-
-
-# Do an Add_in_order function later
