@@ -1,4 +1,3 @@
-'''
 # Exercises - Day 4
 # Title
 print('\n'+'-'*50,' Exercises - Day 5 ' ,'-'*50 +'\n'+'-'*122)
@@ -77,7 +76,7 @@ front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node','Express', 'MongoDB']
 front_end.extend(back_end)
 full_stack = front_end.copy()
-print(full_stack)'''
+print(full_stack)
 
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 min_age = ages[0]
