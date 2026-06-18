@@ -195,3 +195,38 @@ countries = [
   'Zambia',
   'Zimbabwe'
 ];
+
+'''mid = len(countries)//2
+low = 0
+first_half = []
+second_half = countries[:]
+
+if len(countries) % 2 == 0:
+    while low < mid:
+        first_half.append(countries[low])
+        second_half.pop(0)
+        low += 1
+
+elif len(countries) % 2 != 0:
+    while low <= mid:
+        first_half.append(countries[low])
+        second_half.pop(0)
+        low += 1
+
+print('first half countries:',first_half)
+print('second half countries:', second_half)'''
+
+# Another way to do it:
+
+if len(countries) % 2 == 0:
+    first_half = countries [0:(len(countries)//2)]
+    second_half = countries[(len(countries)//2):]
+else: 
+    first_half = countries [0:(len(countries)//2)+1]
+    second_half = countries[(len(countries)//2)+1:]
+
+
+
+print('First Half:', first_half, '\nSecond_half:', second_half)
+print(len(first_half))
+print(len(second_half))
