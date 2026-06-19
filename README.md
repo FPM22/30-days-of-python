@@ -6,7 +6,7 @@ My progress through the [30 Days of Python](https://github.com/Asabeneh/30-Days-
 
 I started this repository to rebuild my programming fundamentals from scratch.
 
-I'm studying Systems Engineering, where I covered programming, algorithms, and data structures in my first year — but over time I realized I had forgotten most of it. Rather than moving forward on a shaky foundation, I decided to go back to basics and rebuild solid knowledge from the ground up.
+I'm studying Systems Engineering, where I covered programming, algorithms, and data structures in my first year, but over time I realized I had forgotten most of it. Rather than moving forward on a shaky foundation, I decided to go back to basics and rebuild solid knowledge from the ground up.
 
 Once I finish this challenge, I plan to move on to hands-on projects from [Project Based Learning](https://github.com/practical-tutorials/project-based-learning#python) to apply everything I've learned.
 
