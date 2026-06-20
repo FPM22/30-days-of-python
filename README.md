@@ -20,3 +20,4 @@ Once I finish this challenge, I plan to move on to hands-on projects from [Proje
 | 04  | Strings |
 | 05  | Lists |
 | 06  | Tuples |
+| 07  | Sets |

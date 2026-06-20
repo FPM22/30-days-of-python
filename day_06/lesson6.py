@@ -29,3 +29,4 @@ joinedtuple = tuple1 + tuple2
 lst = list(joinedtuple)
 
 # its not possible to delete items from tuples, but we can delete the entire tuple using del 'tuple name'
+
