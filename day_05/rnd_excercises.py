@@ -1,5 +1,3 @@
-# Sets
-
 cadena = input('Ingrese una cadena: ')
 print(cadena[::-1])
 
