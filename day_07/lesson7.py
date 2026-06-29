@@ -1,26 +1,32 @@
 # Sets
 
-cadena = input('Ingrese una cadena: ')
-print(cadena[::-1])
+# A set is a collection of unordered and un-indexed distinct elements. In Python we use it to store uniqe items
+# and it is possible to find the union, intersection, difference, symmetric difference, subset, super set and 
+# disjoint set among sets.
 
-caracter = input('Ingrese un caracter: ')
-contador = 0
+# To create
 
-for i in range(len(cadena)):
-    if cadena[i] == caracter:
-        contador += 1
+st = set()
+st1 = {'item1', 'item2', 'item3'}
 
-print('El caracter se repite:' , contador, 'veces.')
+# We can access sets with loops
 
+# To add items to a set we use:
 
-cadena2 = input('Ingrese una cadena: ')
-distanciaHamming = 0
+st1.add('item4')
 
-if len(cadena) == len(cadena2):
-    for i in range(len(cadena)):
-        if cadena[i] != cadena2[i]:
-            distanciaHamming += 1
-    print('Distancia es de: ')
-else:
-    print('Cadenas de distinta longitud.')
+# To add multiple items we use:
 
+st1.update(['item5','item6','item7'])
+
+# To remove items from a set we use remove:
+
+st1.remove(['item6'])
+
+# We can use pop to remove a random item:
+
+st1.pop()
+
+# If we want to know wich item was removed we can assign the value:
+
+removed_item = st1.pop()
